@@ -9,8 +9,8 @@ S3 が世界標準になりつつある。
 互換のあるシステムがたくさん出てきた。
 ローカルで建てれるものが必要になる機会も増えた。
 OSS の minio を使うことが増えた
-そこでテンプレ化しましょう
-[minio](https://min.io/)を呼んでください
+そこでテンプレ化しましょう。
+[minio](https://min.io/)を読んでください
 
 ## 依存
 
@@ -90,3 +90,8 @@ docker-compose up
 ## 裏で実行する場合は-d をつけて！
 ## docker-compose up -d
 ```
+
+## 確認
+
+ブラウザから[http://localhost:9000](http://localhost:9000)を開きましょう
+`username` と `password` は `MINIO_ACCESS_KEY` と `MINIO_SECRET_KEY`で設定した値です
