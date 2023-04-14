@@ -11,7 +11,11 @@ cd minio-template
 cp .env.example .env
 ## then, edit .env .
 ## nano .envとかで編集してください
+```
 
+## run
+
+```
 ## 起動
 docker compose up -d
 ## -d は消しても良い
